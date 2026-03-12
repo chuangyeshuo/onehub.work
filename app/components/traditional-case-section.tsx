@@ -97,10 +97,17 @@ export default function TraditionalCaseSection() {
                     >
                       作品链接 →
                     </a>
-                    <Button size="sm" className="gap-2">
-                      查看案例详情
-                      <ArrowRight className="h-4 w-4" />
-                    </Button>
+                    <a
+                      href="https://onehub-work.github.io/justai.vip/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       className="inline-flex"
+                    >
+                      <Button size="sm" className="gap-2">
+                         官网详情
+                         <ArrowRight className="h-4 w-4" />
+                       </Button>
+                     </a>
                   </div>
                 </div>
               </CardContent>
