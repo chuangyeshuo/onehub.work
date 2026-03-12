@@ -49,21 +49,21 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="/onehub.work.png"
+                href="/onehub.work/onehub.work.png"
                 title="微信扫码(WeChat Scan)，关注 OneHub"
                 className="h-10 w-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors"
               >
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="/onehub.work.png"
+                href="/onehub.work/onehub.work.png"
                 title="微信扫码(WeChat Scan)，关注 OneHub"
                 className="h-10 w-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors"
               >
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="/onehub.work.png"
+                href="/onehub.work/onehub.work.png"
                 title="微信扫码(WeChat Scan)，关注 OneHub"
                 className="h-10 w-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors"
               >
