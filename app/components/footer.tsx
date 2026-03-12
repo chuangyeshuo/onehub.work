@@ -44,6 +44,8 @@ export default function Footer() {
             </Link>
             <p className="text-sm text-gray-400 mb-6 max-w-xs">
               远程一人公司社区，连接独立开发者与企业需求，打造专属你的一人公司。
+              <br />
+              访问 chuangyeshuo.github.io/onehub.work
             </p>
             <div className="flex gap-4">
               <a
@@ -90,7 +92,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
-            © 2026 onehub.work. All rights reserved.
+            © 2026 chuangyeshuo.github.io/onehub.work. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-gray-500">
             <span>域名: onehub.work</span>

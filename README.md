@@ -29,6 +29,20 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## SEO Optimization 📈
+
+This project has been updated with custom SEO settings so that searching for terms like `onehub`, `onehub.work`, `远程`, `一人公司`, or `远程一人公司社区` will lead users to the live site at `https://chuangyeshuo.github.io/onehub.work`.
+
+Key improvements include:
+
+- Global metadata with `metadataBase`, enhanced description and keywords.
+- Open Graph and Twitter card tags for rich sharing.
+- A static `robots.txt` and `sitemap.xml` placed under `public/`.
+- Structured data (JSON‑LD) injected via an `app/head.tsx` component.
+- Canonical URL pointing to the GitHub Pages domain.
+
+You can modify `app/layout.tsx` or `app/head.tsx` to adjust or extend SEO settings.
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
