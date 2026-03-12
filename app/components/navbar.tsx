@@ -7,6 +7,7 @@ import Link from "next/link"
 
 const navItems = [
   { name: "首页", href: "/" },
+  { name: "传统案例库", href: "#traditional-cases" },
   { name: "作品展示", href: "#works" },
   { name: "需求广场", href: "#needs" },
   { name: "关于我们", href: "#about" },

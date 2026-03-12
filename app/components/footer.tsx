@@ -90,10 +90,10 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
-            © 2026 OneHub.ai. All rights reserved.
+            © 2026 onehub.work. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-gray-500">
-            <span>域名: onehub.ai</span>
+            <span>域名: onehub.work</span>
             <span>远程一人公司社区</span>
           </div>
         </div>
