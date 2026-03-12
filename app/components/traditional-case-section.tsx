@@ -37,7 +37,7 @@ export default function TraditionalCaseSection() {
             每日传统案例拆解
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            精选线下实体店铺数字化转型案例，拆解传统行业如何借助互联网工具提升客流与口碑
+            精选线下实体店铺数字化案例，拆解传统行业如何借助互联网工具提升客流与口碑!
           </p>
         </div>
 
