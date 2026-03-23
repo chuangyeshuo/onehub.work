@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowRight, QrCode, CheckCircle, Building2, Coffee, Scissors, Hotel } from "lucide-react"
+import { ArrowRight, QrCode, Sparkles, Building2, Coffee, Scissors, Hotel, Heart, Users, Baby } from "lucide-react"
 import { Card, CardContent, CardHeader } from "./ui/card"
 import { Badge } from "./ui/badge"
 import { Button } from "./ui/button"
@@ -20,6 +20,20 @@ const cases = [
       { label: "线下连锁" }
     ],
     tags: ["线下引流", "口碑营销", "二维码工具"],
+  },
+  {
+    id: 2,
+    title: "优漾瑜伽品牌官网",
+    description: "为瑜伽馆打造的专业品牌展示网站，包含课程介绍、师资团队、在线课表、预约系统等功能。采用温暖疗愈的设计风格，传递瑜伽的宁静与专业，帮助线下瑜伽馆建立线上品牌形象，提升客户预约转化率。",
+    link: "https://chuangyeshuo.github.io/yoyang/",
+    icon: Sparkles,
+    scenarios: [
+      { icon: Heart, label: "瑜伽馆" },
+      { icon: Users, label: "健身工作室" },
+      { icon: Baby, label: "产后修复" },
+      { label: " wellness 中心" }
+    ],
+    tags: ["品牌官网", "预约系统", "课程展示"],
   },
 ]
 
@@ -42,7 +56,7 @@ export default function TraditionalCaseSection() {
         </div>
 
         {/* Cases Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 gap-6">
           {cases.map((caseItem) => (
             <Card
               key={caseItem.id}
